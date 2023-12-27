@@ -20,10 +20,6 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-Program to sort the elements in the list using the Selection Sort algorithm.
-Developed by: TAMILARASAN K S.
-RegisterNumber: 23000080
-'''
 Program to sort the elements in the list using the Insertion Sort algorithm.
 Developed by: TAMILARASAN K S.
 RegisterNumber: 23000080
@@ -40,11 +36,14 @@ print(list_of_nums)
 
 
 
-
-
 ```
+
 ii)	#Insertion Sort
 ```
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: TAMILARASAN K S.
+RegisterNumber: 23000080
+
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item_to_insert=nums[i]
